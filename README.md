@@ -21,29 +21,17 @@ Flexbox for alignment
 
 Basic image assets and styling
 
-📂 Folder Structure
-pgsql
-Copy
-Edit
-project-folder/
-├── images/
-│   └── kurthi.webp, pink.jpg, etc.
-├── index.html
-├── style.css (if used separately)
-🚀 How to Run
-Clone or download this repository.
+
 
 Open index.html in any web browser.
 
 Explore the products and layout.
 
-🖼️ Screenshots
-Add screenshots of your webpage here (optional)
+
 
 👩‍💻 Developed By
 Sangavi Pandi M
 B.E CSE (AIML) – Dr. Mahalingam College of Engineering and Technology
-LinkedIn | GitHub
+https://in.linkedin.com/in/sangavi-pandi-b08230320 | https://github.com/SangaviPandi
 
-📜 License
-This project is for educational purposes only.
+
