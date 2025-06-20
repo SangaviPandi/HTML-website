@@ -13,21 +13,11 @@ Responsive and clean layout
 Category-wise product sections
 
 🛠️ Technologies Used
-HTML5
-
-CSS3
+HTML and CSS
 
 Flexbox for alignment
 
 Basic image assets and styling
-
-
-
-Open index.html in any web browser.
-
-Explore the products and layout.
-
-
 
 👩‍💻 Developed By
 Sangavi Pandi M
