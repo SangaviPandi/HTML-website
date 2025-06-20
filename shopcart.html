@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>webpage</title>
+  <style>
+    body {
+      background-image: url("C:\\sangavi vs\\HTML\\image html\\pink.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .row1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(206, 162, 247);
+      height: 30px;
+      padding: 0 20px;
+    }
+
+    .left .h2 {
+      height: 30px;
+      border: none;
+      font-weight: bold;
+      background-color: white;
+      font-size: larger;
+      width: 150px;
+      color: rgb(24, 224, 191);
+    }
+
+    .left .span {
+      color: black;
+    }
+
+    .right button {
+      background-color: white;
+      height: 30px;
+      width: 70px;
+      border: none;
+      font-weight: bold;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+      font-size: medium;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+    }
+
+    .right button:hover {
+      box-shadow: 5px 5px 5px rgb(145, 243, 227);
+    }
+
+    .right button:active {
+      background-color: rgb(145, 243, 227);
+    }
+
+    .search_bar {
+      margin-top: 40px;
+      height: 35px;
+      border-color: blueviolet;
+      width: 500px;
+      font-size: medium;
+      font-style: italic;
+      border-radius: 50px;
+    }
+
+    .r2 {
+      background-color: rgb(122, 119, 119);
+      text-align: center;
+      height: 100px;
+    }
+
+    .r3 {
+      background-color: rgb(250, 248, 248);
+      height: 75px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .tw {
+      height: 30px;
+      width: 100px;
+      font-size: medium;
+      font-style: italic;
+      font-weight: bold;
+      color: white;
+      background-color: rgb(24, 224, 191);
+      border-radius: 50px;
+      border: none;
+      cursor: pointer;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .tw:hover {
+      transform: scale(1.1);
+      box-shadow: 5px 5px 5px rgb(211, 208, 208);
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      padding: 20px;
+    }
+
+    .d1 {
+      background-color: rgb(228, 208, 247);
+      border-radius: 50px;
+      width: 300px;
+      height: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .d1:hover {
+      transform: scale(1.1);
+      transition: all 0.7s ease-in-out;
+      background-color: rgb(56, 53, 53);
+    }
+
+    .p1 {
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin: 10px 0;
+    }
+
+    .d1:hover .p1 {
+      color: white;
+      transform: scale(1.1);
+    }
+
+    .image {
+      margin-top: 20px;
+      width: 220px;
+      height: 250px;
+      border-radius: 20px;
+      object-fit: cover;
+    }
+
+    .price {
+      color: crimson;
+      font-weight: bold;
+    }
+
+    .buy-btn {
+      margin-top: 10px;
+      padding: 8px 20px;
+      background-color: rgb(243, 22, 7);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-weight: bold;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    .buy-btn:hover {
+      background-color: rgb(18, 190, 165);
+      transform: scale(1.05);
+      box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .bottom-btn-container {
+      width: 100%;
+      position: relative;
+      margin-top: 60px;
+    }
+
+    .shop-now-btn {
+      width: 100%;
+      height: 60px;
+      background-color: rgb(248, 79, 32);
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 0px;
+      /* flat to corners */
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+    }
+
+    .shop-now-btn:hover {
+      background-color: darkred;
+      transform: scale(1.01);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="row1">
+    <div class="left">
+      <button class="h2">shop <span class="span">cart</span></button>
+    </div>
+    <div class="right">
+      <button class="home">home</button>
+      <button class="shop">shop</button>
+      <button class="shop">new</button>
+      <button class="shop">next</button>
+    </div>
+  </div>
+
+  <div class="r2">
+    <input class="search_bar" type="text" placeholder="search" />
+  </div>
+
+  <div class="r3">
+    <button class="tw">view all</button>
+    <button class="tw">traditional</button>
+    <button class="tw">western</button>
+    <button class="tw">women</button>
+    <button class="tw">men</button>
+  </div>
+
+  <div class="products">
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\kurthi.webp" />
+      <p class="p1">Designer kurthi — now at just <span class="price">₹499</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\kurthi2.webp" />
+      <p class="p1">Trendy kurthi for just <span class="price">₹599</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\shirt.webp" />
+      <p class="p1">Smart casual shirt only <span class="price">₹499</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\western.webp" />
+      <p class="p1">Stylish western top just <span class="price">₹349</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\western2.webp" />
+      <p class="p1">Elegant western dress now at <span class="price">₹579</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\western3.jpeg" />
+      <p class="p1">Bold western look starting at <span class="price">₹699</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\shirt 2.avif" />
+      <p class="p1">shirt at <span class="price">₹750</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\jean.jpeg" />
+      <p class="p1">western jean at<span class="price">₹999</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\anarkali.webp" />
+      <p class="p1">Beautiful anarkali at <span class="price">₹699</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+    <div class="d1">
+      <img class="image" src="C:\sangavi vs\HTML\image html\t shirt.avif" />
+      <p class="p1">trendy T-shits at <span class="price">₹699</span>!</p>
+      <button class="buy-btn">Buy Now</button>
+    </div>
+  </div>
+  <div class="bottom-btn-container">
+    <button class="shop-now-btn">Shop Now</button>
+  </div>
+
+</body>
+
+</html>
