@@ -19,6 +19,7 @@ This is a simple HTML & CSS-based shopping website that showcases a collection o
 👩‍💻 Developed By
 Sangavi Pandi M
 B.E CSE (AIML) – Dr. Mahalingam College of Engineering and Technology
+
 https://in.linkedin.com/in/sangavi-pandi-b08230320 | https://github.com/SangaviPandi
 
 
